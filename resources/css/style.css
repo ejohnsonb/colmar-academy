@@ -3,7 +3,6 @@ body {
   font-family: helvetica;
   color: black;
   font-size: 16px;
-
 }
 
 .button {
@@ -55,17 +54,13 @@ h2 {
 
 header {
   position: fixed;
-  z-index: 100%;
+  z-index: 1;
   width: 100%;
   background-color: white;
-}
-
-header .content {
   display: flex;
   align-items: center;
   height: 64px;
 }
-
 
 .logo {
   flex: 1;
@@ -76,6 +71,8 @@ header .content {
 
 header nav ul {
   display: flex;
+  justify-content: flex-end;
+  align-content: center;
   margin-right: 24px;
 }
 
@@ -109,4 +106,60 @@ nav a {
 
 #learn {
   width: 25%;
+}
+
+/* about section*/
+
+.about {
+  display: flex;
+  width: 100%;
+}
+
+.practice {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin: 32px 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  width: 40%;
+  margin-top: 16px;
+  flex-wrap: wrap-reverse;
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  width: 40%;
+}
+
+.info-block {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+.info-block img {
+  width: 35%;
+  margin: 16px 16px 16px 16px;
+}
+
+
+
+.info-content {
+  margin-right: 16px
+}
+
+.info-content p {
+  margin-bottom: 1.25rem;
+}
+
+.info-content a {
+  text-decoration: none;
 }
