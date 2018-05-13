@@ -49,7 +49,6 @@ h2 {
 }
 
 
-
 /* header */
 
 header {
@@ -162,4 +161,53 @@ nav a {
 
 .info-content a {
   text-decoration: none;
+}
+
+/* classes */
+
+#start-learning {
+  display: block;
+  background-color: Silver;
+}
+
+#start-learning h1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.classes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 72px 32px 72px;
+
+}
+
+.courses {
+  width: 260px;
+  background-color: white;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+.courses img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.courses .content {
+  width: 220px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.courses .content span {
+
+
 }
