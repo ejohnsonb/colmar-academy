@@ -1,5 +1,4 @@
-html,
-body {
+html {
   font-family: helvetica;
   color: black;
   font-size: 16px;
@@ -40,12 +39,29 @@ body {
 
 h1 {
   font-size: 2.2em;
-  padding-bottom: 0.75em;
+  padding-bottom: 32px;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 1.5em;
   padding-bottom: 0.75em;
+}
+
+h3 {
+  font-size: 1.15em;
+}
+
+.main-content h3 {
+  padding-bottom: 0.75em;
+}
+
+p {
+  font-size: .85em;
+}
+
+span {
+  font-size: .7em;
 }
 
 
@@ -109,7 +125,7 @@ nav a {
 
 /* about section*/
 
-.about {
+#about {
   display: flex;
   width: 100%;
 }
@@ -119,6 +135,14 @@ nav a {
   width: 60%;
   flex-direction: column;
   margin: 32px 24px;
+}
+
+.practice-content {
+  width: auto;
+}
+
+.quote  {
+  margin-top: 32px;
 }
 
 .info {
@@ -146,7 +170,7 @@ nav a {
 
 .info-block img {
   width: 35%;
-  margin: 16px 16px 16px 16px;
+  margin: 16px;
 }
 
 
@@ -207,7 +231,55 @@ nav a {
   margin-bottom: 24px;
 }
 
-.courses .content span {
+/* thesis */
 
+
+#thesis {
+  display: block;
+}
+
+#thesis h1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 0px;
+
+}
+
+.thesis-content {
+  display: inline-flex;
+}
+
+.video {
+  margin-right: 16px;
+}
+
+video {
+  margin-bottom: 24px;
+}
+
+/* footer */
+
+footer {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-top: 1px solid black;
+
+}
+
+footer span {
+  margin-left: 24px;
+
+}
+
+footer nav ul {
+  display: flex;
+}
+
+footer nav ul li a {
+  font-size: 0.75rem;
 
 }
